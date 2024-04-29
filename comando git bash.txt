@@ -1,0 +1,79 @@
+
+***************************************************************************************
+
+	+------------------------+
+	| Configurar Git con VSC |
+	+------------------------+
+
+- Crear carpeta de repositorio en PC:
+
+	< mkdir [NOMBRE CARPETA] >
+
+- Seleccionar carpeta repositorio:
+
+	< cd [NOMBRE_CARPETA] >
+
+- Iniciar Proyecto:
+
+	<  git init >
+
+- Agregar usuario de GithHub:
+
+	<  git config --global user.name "[NOMBRE_USUARIO]"
+
+- Agregar Email de GitHub:
+	 
+	< git config --global user.email [EMAIL@EMAIL.COM] >
+
+- Configuración para Windows. 
+	Cuando haces un checkout del repositorio, los cambios de línea se 
+	convierten al formato Windows (CRLF) localmente.
+
+	< git config --global core.autocrtl true >
+
+- Establecer Visual Studio Code:
+	Establece Visual Studio Code (VSCode) como el editor predeterminado para Git.
+
+	< git config --global core.editor "code --wait" >
+
+	
+**************************************************************************************
+	+-------------------+
+	| Subir repositorio |
+	+-------------------+
+
+ -Inicializa un Repositorio Local:
+	Abre la terminal en la carpeta de tu proyecto.
+	Ejecuta el siguiente comando para inicializar un repositorio local de Git:
+
+		< git init >
+
+ - Agrega tus Archivos al Repositorio:
+	Añade los archivos que deseas subir al repositorio. Puedes agregar todos 
+	los archivos con el siguiente comando:
+
+		< git add . >
+
+ - Realiza tu Primer Commit:
+	Confirma los cambios que has realizado con un mensaje descriptivo:
+
+		< git commit -m "[PONER COMENTARIO]" >
+
+ - Crea un Repositorio en GitHub:
+	Inicia sesión en GitHub y crea un nuevo repositorio.
+	No marques la opción para crear un archivo README.
+	Copia la URL del repositorio que has creado.
+	Conecta tu Repositorio Local con el Remoto:
+	Asocia tu repositorio local con el remoto en GitHub:
+
+		< git remote add origin [URL_DEL_REPOSITORIO] >
+
+ 	Reemplaza URL_DEL_REPOSITORIO con la URL que copiaste en el paso anterior.
+
+- Sube tus Cambios al Repositorio en GitHub:
+	Realiza el primer push:
+
+		< git push -u origin master >
+
+**************************************************************************************
+

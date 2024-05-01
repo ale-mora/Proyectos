@@ -1,0 +1,36 @@
+.arriba {
+    background-color: black;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.desp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h6 {
+    margin-left: 10px;
+}
+
+.cont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ret {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cam {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

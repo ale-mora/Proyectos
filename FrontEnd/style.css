@@ -39,3 +39,22 @@ h6 {
     align-items: center;
     justify-content: center;
 }
+
+.medio {
+    background-color: black;
+    height: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.fotos {
+    display: flex;
+}
+
+.foto1 {
+    height: 100%;
+    width: 100%;
+}
